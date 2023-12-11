@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tick To Do-Paylaşılabilir Online Takvim ve Planlama </title>
+    <link rel="icon" type="text/css" href="Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-12-11%20180350.png" />
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <header>
+        <h2 class="logo">LOGO</h2>
+        <nav class="navigation">
+            <a href="#">Anasayfa</a>
+            <a href="#">Hakkımızda</a>
+            <a href="#">İletişim</a>
+            <button class="btnLogin-popup">Giriş</button>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <span class="icon-close">
+            <ion-icon name="close"></ion-icon>
+        </span>
+        <div class="form-box login">
+            <h2>Üye Girişi</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" required>
+                    <label>Şifre</label>
+                </div>
+                <div class="remember-forgot">
+                    <label>
+                        <input type="checkbox">
+                        Beni Hatırla
+                    </label>
+                    <a href="#">Şifremi Unuttum</a>
+                </div>
+                <button type="submit" class="btn">GİRİŞ</button>
+                <div class="login-register">
+                    <p>Hesabınız mı yok? <a href="#" class="register-link"> Üye Ol</a></p>
+                </div>
+            </form>
+        </div>
+        
+        <div class="form-box register">
+            <h2>Kayıt</h2>
+            <form action="#">
+               <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person"></ion-icon>
+                    </span>
+                    <input type="text" required>
+                    <label>Kullanıcı Adı</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" required>
+                    <label>Şifre</label>
+                </div>
+                <div class="remember-forgot">
+                    <label>
+                        <input type="checkbox">
+                        şartlar ve koşulları kabul ediyorum.
+                    </label>
+                   
+                </div>
+                <button type="submit" class="btn">KAYIT</button>
+                <div class="login-register">
+                    <p>Hesabınız var mı? <a href="#" class="login-link"> Giriş</a></p>
+                </div>
+            </form>
+        </div>
+        
+        
+    </div>
+    
+    <script src="script.js"></script>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
